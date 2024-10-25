@@ -1,0 +1,10 @@
+// today's temperature in kelvin 
+const kelvin = 293;
+// converting kelvin into celcius
+var celcius = kelvin - 273
+// converting celcius into fahrenheit
+let fahrenheit = celcius *(9/5)+32
+// Rounding off to nearest whole number
+fahrenheit = Math.floor(fahrenheit);
+//loging into the console
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`)
